@@ -115,4 +115,22 @@ class BuilderPatternTestTests: XCTestCase {
         print("\n=============================\n")
     }
     
+    
+    
+    let newHouseBuilder = NewHouseBuilder()
+    
+    func test4() {
+        
+        newHouseBuilder.floor = 13
+        newHouseBuilder.furniture = true
+        
+        let house = newHouseBuilder.build()
+        
+        print("\n=============================")
+        print("Case 7\n")
+        print("floor: \(house.floor)")
+        print("room: \(house.room)")
+        print("furniture: \(house.furniture)")
+        print("\n=============================\n")
+    }
 }

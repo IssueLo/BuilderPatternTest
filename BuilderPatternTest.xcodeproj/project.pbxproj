@@ -16,6 +16,7 @@
 		4034E73023C6C73B00BFC381 /* BuilderPatternTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034E72F23C6C73B00BFC381 /* BuilderPatternTestTests.swift */; };
 		4034E73D23C6CE3F00BFC381 /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034E73C23C6CE3F00BFC381 /* House.swift */; };
 		4034E73F23C6CE4D00BFC381 /* HouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034E73E23C6CE4D00BFC381 /* HouseBuilder.swift */; };
+		4034E74123C80FCD00BFC381 /* NewHouseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4034E74023C80FCD00BFC381 /* NewHouseBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		4034E73123C6C73B00BFC381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4034E73C23C6CE3F00BFC381 /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		4034E73E23C6CE4D00BFC381 /* HouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBuilder.swift; sourceTree = "<group>"; };
+		4034E74023C80FCD00BFC381 /* NewHouseBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHouseBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				4034E71C23C6C73900BFC381 /* ViewController.swift */,
 				4034E73C23C6CE3F00BFC381 /* House.swift */,
 				4034E73E23C6CE4D00BFC381 /* HouseBuilder.swift */,
+				4034E74023C80FCD00BFC381 /* NewHouseBuilder.swift */,
 				4034E71E23C6C73900BFC381 /* Main.storyboard */,
 				4034E72123C6C73B00BFC381 /* Assets.xcassets */,
 				4034E72323C6C73B00BFC381 /* LaunchScreen.storyboard */,
@@ -209,6 +212,7 @@
 				4034E73F23C6CE4D00BFC381 /* HouseBuilder.swift in Sources */,
 				4034E71D23C6C73900BFC381 /* ViewController.swift in Sources */,
 				4034E71923C6C73900BFC381 /* AppDelegate.swift in Sources */,
+				4034E74123C80FCD00BFC381 /* NewHouseBuilder.swift in Sources */,
 				4034E73D23C6CE3F00BFC381 /* House.swift in Sources */,
 				4034E71B23C6C73900BFC381 /* SceneDelegate.swift in Sources */,
 			);
