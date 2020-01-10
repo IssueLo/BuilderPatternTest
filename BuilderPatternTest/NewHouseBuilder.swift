@@ -27,8 +27,8 @@ public class NewHouseBuilder {
         get {
             return newRoom
         }
-        set(newValue) {
-            newRoom = newValue
+        set {
+            newRoom = (newValue)
         }
     }
     
@@ -36,8 +36,8 @@ public class NewHouseBuilder {
         get {
             return newFurniture
         }
-        set(newValue) {
-            newFurniture = newValue
+        set {
+            newFurniture = (newValue)
         }
     }
 

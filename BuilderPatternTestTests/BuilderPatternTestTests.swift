@@ -122,6 +122,7 @@ class BuilderPatternTestTests: XCTestCase {
     func test4() {
         
         newHouseBuilder.floor = 13
+        newHouseBuilder.room = 100
         newHouseBuilder.furniture = true
         
         let house = newHouseBuilder.build()
