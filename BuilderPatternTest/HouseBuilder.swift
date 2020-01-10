@@ -15,18 +15,14 @@ public class HouseBuilder {
 //    func setFloor(_ floor: Int) {
 //        self.floor = floor
 //    }
-//    
+   
 //    func setRoom(_ room: Int) {
 //        self.room = room
 //    }
-//    
+
 //    func setFurniture(include furniture: Bool) {
 //        self.furniture = furniture
 //    }
-    
-    func build() -> House {
-        return House(floor: floor, room: room, furniture: furniture)
-    }
     
     @discardableResult
     func setFloor(_ floor: Int) -> HouseBuilder  {
@@ -44,6 +40,10 @@ public class HouseBuilder {
     func setFurniture(include furniture: Bool) -> HouseBuilder  {
         self.furniture = furniture
         return self
+    }
+    
+    func build() -> House {
+        return House(floor: floor, room: room, furniture: furniture)
     }
     
 }
